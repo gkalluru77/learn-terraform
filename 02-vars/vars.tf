@@ -27,5 +27,5 @@ output "fruits_withqualtity" {
 }
 
 output "fruits_withqualtity1" {
-  value = "Apple quantity: ${var.fruits_quantity["apple"]}
+  value = "Apple quantity: ${var.fruits_quantity["apple"]}"
 }
