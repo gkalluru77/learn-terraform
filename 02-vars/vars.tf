@@ -22,13 +22,10 @@ default = {
     banana=300
 }
 }
-
 output "fruits_withqualtity" {
   value = var.fruits_quantity["apple"]
 }
 
-
-
-output "fruits_withqualtity" {
+output "fruits_withqualtity1" {
   value = "Apple quantity: ${var.fruits_quantity["apple"]}
 }
