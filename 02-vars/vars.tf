@@ -26,3 +26,9 @@ default = {
 output "fruits_withqualtity" {
   value = var.fruits_quantity["apple"]
 }
+
+
+
+output "fruits_withqualtity" {
+  value = "Apple quantity: ${var.fruits_quantity["apple"]}
+}
