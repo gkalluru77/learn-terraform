@@ -14,3 +14,15 @@ variable "fruits" {
 output "fruits_first" {
   value = var.fruits[0]
 }
+
+variable "fruits_quantity" {
+default = {
+    apple=100
+    mango=200
+    banana=300
+}
+}
+
+output "fruits_withqualtity" {
+  value = var.fruits_quantity["apple"]
+}
