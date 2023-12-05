@@ -1,0 +1,5 @@
+env = "dev"
+ami = "ami-03265a0778a880afb"
+instance_type = "t3.micro"
+sg_id = ["sg-0a74c43c4f48d478a"]
+zone_id = "Z06495641EH08RSVXZNLW"
